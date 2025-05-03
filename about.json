@@ -1,0 +1,41 @@
+{
+   
+    "name": "Advanced Lottie Player",
+    "description": "Gelişmiş Lottie animasyon oynatıcı",
+    "version": "1.0.0",
+    "author": "Sizin Adınız",
+    
+   
+    "dependencies": {
+        "bubble-sdk": "latest"
+    },
+    
+   
+    "elements": [
+        {
+            "name": "LottiePlayer",
+            "icon": "animation.svg",
+         
+            "properties": [
+                {
+                    "name": "animation_url",
+                    "type": "text",
+                    "caption": "Animasyon URL",
+                    "default": ""
+                },
+                {
+                    "name": "mode",
+                    "type": "choice",
+                    "caption": "Etkileşim Modu",
+                    "options": [
+                        "Page Load",  
+                        "Scroll",     
+                        "Hover",     
+                        "Click"       
+                    ]
+                }
+           
+            ]
+        }
+    ]
+}
